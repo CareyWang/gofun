@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/CareyWang/gofun/handles"
+	"github.com/gin-gonic/gin"
 )
 
 func InitApiRouter(router *gin.Engine) {

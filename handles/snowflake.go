@@ -1,8 +1,8 @@
 package handles
 
 import (
-	"github.com/gin-gonic/gin"
 	"github.com/bwmarrin/snowflake"
+	"github.com/gin-gonic/gin"
 )
 
 func Generate(context *gin.Context) {
