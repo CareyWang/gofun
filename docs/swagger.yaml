@@ -1,5 +1,16 @@
 info:
   contact: {}
   license: {}
-paths: {}
+paths:
+  /v1/id:
+    get:
+      operationId: "1"
+      responses:
+        "200":
+          description: 成功返回全局唯一ID
+          schema:
+            type: string
+      summary: 获取全局唯一ID
+      tags:
+      - snowflake
 swagger: "2.0"
