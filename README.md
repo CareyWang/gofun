@@ -27,3 +27,12 @@ go build -o gofun main.go
 export GOPROXY="https://goproxy.io"
 export GOSUMDB=gosum.io+ce6e7565+AY5qEHUk/qmHc5btzW45JVoENfazw8LielDsaI+lEbq6
 ``` 
+
+# Docs
+使用 swagger 实现 API 文档自动生成
+```shell script
+go get -u github.com/swaggo/swag/cmd/swag
+cd gofun
+swag init
+```
+SwaggerUI: http://localhost:65535/swagger/index.html
