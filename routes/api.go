@@ -13,5 +13,7 @@ func InitApiRouter(router *gin.Engine) {
 		})
 
 		v1.GET("/id", handles.GenerateUniqID)
+
+		v1.GET("/yoyu/:url", handles.GenerateSurge)
 	}
 }
