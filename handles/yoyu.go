@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"github.com/gin-gonic/gin"
 	"io/ioutil"
-	"strings"
 	"net/url"
+	"strings"
 )
 
 func GenerateSurge(context *gin.Context) {
