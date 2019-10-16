@@ -1,4 +1,4 @@
-module github.com/CareyWang/gofun
+module gofun
 
 go 1.13
 

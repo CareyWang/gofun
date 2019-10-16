@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/CareyWang/gofun/routers"
 	"github.com/gin-gonic/gin"
+	"gofun/routers"
 )
 
 func main() {
