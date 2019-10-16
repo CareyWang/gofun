@@ -23,5 +23,7 @@ go build -o gofun main.go
 # Notice
 若依赖安装时网络错误，可添加代理：
 ```shell script
-export GOPROXY="https://gocenter.io"
+# export GOPROXY=https://mirrors.aliyun.com/goproxy/
+export GOPROXY="https://goproxy.io"
+export GOSUMDB=gosum.io+ce6e7565+AY5qEHUk/qmHc5btzW45JVoENfazw8LielDsaI+lEbq6
 ``` 

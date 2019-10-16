@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Generate(context *gin.Context) {
+func GenerateUniqID(context *gin.Context) {
 	node, err := snowflake.NewNode(1)
 	if err != nil {
 		context.JSON(500, err)

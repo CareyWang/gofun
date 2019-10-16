@@ -12,6 +12,6 @@ func InitApiRouter(router *gin.Engine) {
 			context.String(200, "pong!")
 		})
 
-		v1.GET("/id", handles.Generate)
+		v1.GET("/id", handles.GenerateUniqID)
 	}
 }
